@@ -21,6 +21,7 @@ Licensed under the terms of the MIT License
 from __future__ import print_function
 
 
+import qdarkstyle
 #==============================================================================
 # Stdlib imports
 #==============================================================================
@@ -312,7 +313,7 @@ class MainWindow(QMainWindow):
 
         self.debug_print("Start of MainWindow constructor")
 
-#        self.setStyleSheet(STYLESHEET)
+        self.setStyleSheet(qdarkstyle.load_stylesheet())
 
         # Shortcut management data
         self.shortcut_data = []
