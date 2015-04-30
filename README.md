@@ -1,3 +1,10 @@
+# Spyder + QDarkStyleSheet
+I wanted to make spyder dark so it would match the rest of my themeing across my computer.
+ - does it work? Only launching with the boostrap command.
+ - requires QDarkStyle
+
+
+
 # Spyder - The Scientific PYthon Development EnviRonment
 
 Copyright © 2009-2013 Pierre Raybaut.
